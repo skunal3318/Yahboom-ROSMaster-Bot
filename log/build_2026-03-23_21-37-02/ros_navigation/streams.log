@@ -1,0 +1,20 @@
+[0.011s] Invoking command in '/home/kunal-jazzy/ros2_ws/build/ros_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/ros_navigation -- -j12 -l12
+[0.049s] Invoked command in '/home/kunal-jazzy/ros2_ws/build/ros_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/ros_navigation -- -j12 -l12
+[0.050s] Invoking command in '/home/kunal-jazzy/ros2_ws/build/ros_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/ros_navigation
+[0.056s] -- Install configuration: ""
+[0.056s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ament_index/resource_index/package_run_dependencies/ros_navigation
+[0.057s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ament_index/resource_index/parent_prefix_path/ros_navigation
+[0.057s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/environment/ament_prefix_path.sh
+[0.058s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/environment/ament_prefix_path.dsv
+[0.058s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/environment/path.sh
+[0.058s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/environment/path.dsv
+[0.058s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/local_setup.bash
+[0.058s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/local_setup.sh
+[0.059s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/local_setup.zsh
+[0.059s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/local_setup.dsv
+[0.059s] -- Installing: /home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/package.dsv
+[0.059s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ament_index/resource_index/packages/ros_navigation
+[0.059s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/cmake/ros_navigationConfig.cmake
+[0.059s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/cmake/ros_navigationConfig-version.cmake
+[0.059s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/package.xml
+[0.070s] Invoked command in '/home/kunal-jazzy/ros2_ws/build/ros_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/ros_navigation

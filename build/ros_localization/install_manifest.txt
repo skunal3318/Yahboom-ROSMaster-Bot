@@ -1,0 +1,15 @@
+/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ament_index/resource_index/package_run_dependencies/ros_localization
+/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ament_index/resource_index/parent_prefix_path/ros_localization
+/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/environment/ament_prefix_path.sh
+/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/environment/ament_prefix_path.dsv
+/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/environment/path.sh
+/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/environment/path.dsv
+/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/local_setup.bash
+/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/local_setup.sh
+/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/local_setup.zsh
+/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/local_setup.dsv
+/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/package.dsv
+/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ament_index/resource_index/packages/ros_localization
+/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/cmake/ros_localizationConfig.cmake
+/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/cmake/ros_localizationConfig-version.cmake
+/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/package.xml

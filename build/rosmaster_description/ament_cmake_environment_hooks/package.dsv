@@ -1,0 +1,4 @@
+source;share/rosmaster_description/local_setup.bash
+source;share/rosmaster_description/local_setup.dsv
+source;share/rosmaster_description/local_setup.sh
+source;share/rosmaster_description/local_setup.zsh

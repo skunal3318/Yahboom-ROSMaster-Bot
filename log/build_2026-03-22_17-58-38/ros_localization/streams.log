@@ -1,0 +1,47 @@
+[0.020s] Invoking command in '/home/kunal-jazzy/ros2_ws/build/ros_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kunal-jazzy/ros2_ws/src/ros_localization -DCMAKE_INSTALL_PREFIX=/home/kunal-jazzy/ros2_ws/install/ros_localization
+[0.255s] -- The C compiler identification is GNU 13.3.0
+[0.421s] -- The CXX compiler identification is GNU 13.3.0
+[0.455s] -- Detecting C compiler ABI info
+[0.607s] -- Detecting C compiler ABI info - done
+[0.626s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.627s] -- Detecting C compile features
+[0.627s] -- Detecting C compile features - done
+[0.643s] -- Detecting CXX compiler ABI info
+[0.804s] -- Detecting CXX compiler ABI info - done
+[0.816s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.817s] -- Detecting CXX compile features
+[0.817s] -- Detecting CXX compile features - done
+[0.832s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.076s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.262s] -- Found robot_localization: 3.8.3 (/opt/ros/jazzy/share/robot_localization/cmake)
+[1.349s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.374s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.403s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.440s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.682s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.839s] -- Added test 'lint_cmake' to check CMake code style
+[1.842s] -- Added test 'xmllint' to check XML markup files
+[1.845s] -- Configuring done (1.8s)
+[1.849s] -- Generating done (0.0s)
+[1.853s] -- Build files have been written to: /home/kunal-jazzy/ros2_ws/build/ros_localization
+[1.864s] Invoked command in '/home/kunal-jazzy/ros2_ws/build/ros_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kunal-jazzy/ros2_ws/src/ros_localization -DCMAKE_INSTALL_PREFIX=/home/kunal-jazzy/ros2_ws/install/ros_localization
+[1.866s] Invoking command in '/home/kunal-jazzy/ros2_ws/build/ros_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/ros_localization -- -j12 -l12
+[1.929s] Invoked command in '/home/kunal-jazzy/ros2_ws/build/ros_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/ros_localization -- -j12 -l12
+[1.942s] Invoking command in '/home/kunal-jazzy/ros2_ws/build/ros_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/ros_localization
+[1.955s] -- Install configuration: ""
+[1.955s] -- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ament_index/resource_index/package_run_dependencies/ros_localization
+[1.955s] -- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ament_index/resource_index/parent_prefix_path/ros_localization
+[1.956s] -- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/environment/ament_prefix_path.sh
+[1.956s] -- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/environment/ament_prefix_path.dsv
+[1.956s] -- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/environment/path.sh
+[1.956s] -- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/environment/path.dsv
+[1.956s] -- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/local_setup.bash
+[1.956s] -- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/local_setup.sh
+[1.956s] -- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/local_setup.zsh
+[1.956s] -- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/local_setup.dsv
+[1.956s] -- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/package.dsv
+[1.956s] -- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ament_index/resource_index/packages/ros_localization
+[1.956s] -- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/cmake/ros_localizationConfig.cmake
+[1.956s] -- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/cmake/ros_localizationConfig-version.cmake
+[1.956s] -- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/package.xml
+[1.958s] Invoked command in '/home/kunal-jazzy/ros2_ws/build/ros_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/ros_localization

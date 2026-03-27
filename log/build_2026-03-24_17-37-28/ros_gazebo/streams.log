@@ -1,0 +1,20 @@
+[0.040s] Invoking command in '/home/kunal-jazzy/ros2_ws/build/ros_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/ros_gazebo -- -j12 -l12
+[0.173s] Invoked command in '/home/kunal-jazzy/ros2_ws/build/ros_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/ros_gazebo -- -j12 -l12
+[0.175s] Invoking command in '/home/kunal-jazzy/ros2_ws/build/ros_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/ros_gazebo
+[0.199s] -- Install configuration: ""
+[0.199s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ament_index/resource_index/package_run_dependencies/ros_gazebo
+[0.199s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ament_index/resource_index/parent_prefix_path/ros_gazebo
+[0.199s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/environment/ament_prefix_path.sh
+[0.199s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/environment/ament_prefix_path.dsv
+[0.199s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/environment/path.sh
+[0.199s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/environment/path.dsv
+[0.199s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/local_setup.bash
+[0.199s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/local_setup.sh
+[0.199s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/local_setup.zsh
+[0.199s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/local_setup.dsv
+[0.199s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/package.dsv
+[0.199s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ament_index/resource_index/packages/ros_gazebo
+[0.199s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/cmake/ros_gazeboConfig.cmake
+[0.200s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/cmake/ros_gazeboConfig-version.cmake
+[0.200s] -- Up-to-date: /home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/package.xml
+[0.231s] Invoked command in '/home/kunal-jazzy/ros2_ws/build/ros_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/ros_gazebo

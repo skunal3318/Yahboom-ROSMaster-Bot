@@ -1,0 +1,226 @@
+[0.000000] (-) TimerEvent: {}
+[0.000323] (-) JobUnselected: {'identifier': 'ros2_ws'}
+[0.000694] (-) JobUnselected: {'identifier': 'ros_bringup'}
+[0.000712] (-) JobUnselected: {'identifier': 'ros_gazebo'}
+[0.000725] (-) JobUnselected: {'identifier': 'ros_localization'}
+[0.000733] (-) JobUnselected: {'identifier': 'ros_navigation'}
+[0.000741] (-) JobUnselected: {'identifier': 'rosmaster_description'}
+[0.000748] (-) JobUnselected: {'identifier': 'system_tests'}
+[0.000758] (mecanum_drive_controller) JobQueued: {'identifier': 'mecanum_drive_controller', 'dependencies': OrderedDict()}
+[0.000773] (mecanum_drive_controller) JobStarted: {'identifier': 'mecanum_drive_controller'}
+[0.010983] (mecanum_drive_controller) JobProgress: {'identifier': 'mecanum_drive_controller', 'progress': 'cmake'}
+[0.011233] (mecanum_drive_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/kunal-jazzy/ros2_ws/src/mecanum_drive_controller', '-DCMAKE_INSTALL_PREFIX=/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller'], 'cwd': '/home/kunal-jazzy/ros2_ws/build/mecanum_drive_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'kunal-jazzy', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kunal-jazzy', 'OLDPWD': '/home/kunal-jazzy/ros2_ws/src/mecanum_drive_controller', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2979', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=29b619fc9800acefcde705c069c1e956', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/kunal-jazzy/ROS2-Camera-Visualization/install:/home/kunal-jazzy/ros2_ws/install:/home/kunal-jazzy/ros2_arm/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kunal-jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kunal-jazzy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kunal-jazzy-LOQ-15IAX9:@/tmp/.ICE-unix/2979,unix/kunal-jazzy-LOQ-15IAX9:/tmp/.ICE-unix/2979', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/edd0e70b_07c7_4cb3_b6e2_a7fa63be760b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kunal-jazzy/ros2_ws/install/ros2_ws:/home/kunal-jazzy/ros2_ws/install/system_tests:/home/kunal-jazzy/ros2_ws/install/rosmaster_description:/home/kunal-jazzy/ros2_ws/install/ros_navigation:/home/kunal-jazzy/ros2_ws/install/ros_localization:/home/kunal-jazzy/ros2_ws/install/ros_gazebo:/home/kunal-jazzy/ros2_ws/install/ros_bringup:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_worlds:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control_bringup:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_wheel_description:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/home/kunal-jazzy/ros2_arm/install/ros2_arm:/home/kunal-jazzy/ros2_arm/install/arm_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kunal-jazzy/ros2_ws/build/mecanum_drive_controller', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=29b619fc9800acefcde705c069c1e956', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/kunal-jazzy/ros2_ws/install/ros2_ws:/home/kunal-jazzy/ros2_ws/install/system_tests:/home/kunal-jazzy/ros2_ws/install/rosmaster_description:/home/kunal-jazzy/ros2_ws/install/ros_navigation:/home/kunal-jazzy/ros2_ws/install/ros_localization:/home/kunal-jazzy/ros2_ws/install/ros_gazebo:/home/kunal-jazzy/ros2_ws/install/ros_bringup:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_worlds:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control_bringup:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_wheel_description:/home/kunal-jazzy/ros2_arm/install/ros2_arm:/home/kunal-jazzy/ros2_arm/install/arm_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy'}), 'shell': False}
+[0.099846] (-) TimerEvent: {}
+[0.200220] (-) TimerEvent: {}
+[0.236276] (mecanum_drive_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.270348] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300332] (-) TimerEvent: {}
+[0.400626] (-) TimerEvent: {}
+[0.406405] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.413222] (mecanum_drive_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.414178] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.414770] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.425602] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.500808] (-) TimerEvent: {}
+[0.551583] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.600919] (-) TimerEvent: {}
+[0.684897] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found controller_interface: 4.42.2 (/opt/ros/jazzy/share/controller_interface/cmake)\n'}
+[0.701013] (-) TimerEvent: {}
+[0.753602] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.772483] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.794009] (mecanum_drive_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.801109] (-) TimerEvent: {}
+[0.816633] (mecanum_drive_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901212] (-) TimerEvent: {}
+[1.001474] (-) TimerEvent: {}
+[1.040157] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[1.092897] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.098142] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.101576] (-) TimerEvent: {}
+[1.128643] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[1.201705] (-) TimerEvent: {}
+[1.240833] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.244760] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[1.260338] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.263079] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[1.270238] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[1.281920] (mecanum_drive_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.301819] (-) TimerEvent: {}
+[1.402106] (-) TimerEvent: {}
+[1.502380] (-) TimerEvent: {}
+[1.602680] (-) TimerEvent: {}
+[1.614805] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.6.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)\n'}
+[1.618415] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found parameter_traits: 0.6.0 (/opt/ros/jazzy/share/parameter_traits/cmake)\n'}
+[1.647651] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.677525] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[1.684048] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found tf2_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_msgs/cmake)\n'}
+[1.702806] (-) TimerEvent: {}
+[1.715454] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)\n'}
+[1.719571] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found controller_manager: 4.42.2 (/opt/ros/jazzy/share/controller_manager/cmake)\n'}
+[1.795252] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 4.42.2 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)\n'}
+[1.802917] (-) TimerEvent: {}
+[1.873158] (mecanum_drive_controller) StdoutLine: {'line': b'-- Configuring done (1.8s)\n'}
+[1.899624] (mecanum_drive_controller) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.903017] (-) TimerEvent: {}
+[1.905330] (mecanum_drive_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/kunal-jazzy/ros2_ws/build/mecanum_drive_controller\n'}
+[1.914893] (mecanum_drive_controller) CommandEnded: {'returncode': 0}
+[1.915625] (mecanum_drive_controller) JobProgress: {'identifier': 'mecanum_drive_controller', 'progress': 'build'}
+[1.915642] (mecanum_drive_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kunal-jazzy/ros2_ws/build/mecanum_drive_controller', '--', '-j12', '-l12'], 'cwd': '/home/kunal-jazzy/ros2_ws/build/mecanum_drive_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'kunal-jazzy', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kunal-jazzy', 'OLDPWD': '/home/kunal-jazzy/ros2_ws/src/mecanum_drive_controller', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2979', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=29b619fc9800acefcde705c069c1e956', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/kunal-jazzy/ROS2-Camera-Visualization/install:/home/kunal-jazzy/ros2_ws/install:/home/kunal-jazzy/ros2_arm/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kunal-jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kunal-jazzy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kunal-jazzy-LOQ-15IAX9:@/tmp/.ICE-unix/2979,unix/kunal-jazzy-LOQ-15IAX9:/tmp/.ICE-unix/2979', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/edd0e70b_07c7_4cb3_b6e2_a7fa63be760b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kunal-jazzy/ros2_ws/install/ros2_ws:/home/kunal-jazzy/ros2_ws/install/system_tests:/home/kunal-jazzy/ros2_ws/install/rosmaster_description:/home/kunal-jazzy/ros2_ws/install/ros_navigation:/home/kunal-jazzy/ros2_ws/install/ros_localization:/home/kunal-jazzy/ros2_ws/install/ros_gazebo:/home/kunal-jazzy/ros2_ws/install/ros_bringup:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_worlds:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control_bringup:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_wheel_description:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/home/kunal-jazzy/ros2_arm/install/ros2_arm:/home/kunal-jazzy/ros2_arm/install/arm_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kunal-jazzy/ros2_ws/build/mecanum_drive_controller', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=29b619fc9800acefcde705c069c1e956', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/kunal-jazzy/ros2_ws/install/ros2_ws:/home/kunal-jazzy/ros2_ws/install/system_tests:/home/kunal-jazzy/ros2_ws/install/rosmaster_description:/home/kunal-jazzy/ros2_ws/install/ros_navigation:/home/kunal-jazzy/ros2_ws/install/ros_localization:/home/kunal-jazzy/ros2_ws/install/ros_gazebo:/home/kunal-jazzy/ros2_ws/install/ros_bringup:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_worlds:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control_bringup:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_wheel_description:/home/kunal-jazzy/ros2_arm/install/ros2_arm:/home/kunal-jazzy/ros2_arm/install/arm_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy'}), 'shell': False}
+[1.963260] (mecanum_drive_controller) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/kunal-jazzy/ros2_ws/build/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp /home/kunal-jazzy/ros2_ws/src/mecanum_drive_controller/src/mecanum_drive_controller_parameter.yaml `\x1b[0m\n'}
+[2.003106] (-) TimerEvent: {}
+[2.103323] (-) TimerEvent: {}
+[2.203559] (-) TimerEvent: {}
+[2.303779] (-) TimerEvent: {}
+[2.404002] (-) TimerEvent: {}
+[2.504200] (-) TimerEvent: {}
+[2.604390] (-) TimerEvent: {}
+[2.704582] (-) TimerEvent: {}
+[2.804785] (-) TimerEvent: {}
+[2.904973] (-) TimerEvent: {}
+[2.998028] (mecanum_drive_controller) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mCreating deprecated header file /home/kunal-jazzy/ros2_ws/build/mecanum_drive_controller/include/mecanum_drive_controller_parameters.hpp\x1b[0m\n'}
+[3.005105] (-) TimerEvent: {}
+[3.014800] (mecanum_drive_controller) StdoutLine: {'line': b'[ 33%] Built target mecanum_drive_controller_parameters\n'}
+[3.035064] (mecanum_drive_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o\x1b[0m\n'}
+[3.035339] (mecanum_drive_controller) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/speed_limiter.cpp.o\x1b[0m\n'}
+[3.035531] (mecanum_drive_controller) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o\x1b[0m\n'}
+[3.105275] (-) TimerEvent: {}
+[3.205583] (-) TimerEvent: {}
+[3.305855] (-) TimerEvent: {}
+[3.406148] (-) TimerEvent: {}
+[3.506412] (-) TimerEvent: {}
+[3.606689] (-) TimerEvent: {}
+[3.706994] (-) TimerEvent: {}
+[3.807295] (-) TimerEvent: {}
+[3.907588] (-) TimerEvent: {}
+[4.007896] (-) TimerEvent: {}
+[4.108123] (-) TimerEvent: {}
+[4.208333] (-) TimerEvent: {}
+[4.308577] (-) TimerEvent: {}
+[4.408813] (-) TimerEvent: {}
+[4.509055] (-) TimerEvent: {}
+[4.609288] (-) TimerEvent: {}
+[4.709562] (-) TimerEvent: {}
+[4.809808] (-) TimerEvent: {}
+[4.910064] (-) TimerEvent: {}
+[5.010293] (-) TimerEvent: {}
+[5.078737] (mecanum_drive_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kunal-jazzy/ros2_ws/src/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:37\x1b[m\x1b[K,\n'}
+[5.078907] (mecanum_drive_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kunal-jazzy/ros2_ws/src/mecanum_drive_controller/src/mecanum_drive_controller.cpp:42\x1b[m\x1b[K:\n'}
+[5.078975] (mecanum_drive_controller) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_box.hpp:40:151:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: 'RealtimeBox' is deprecated. Please update your code to use 'realtime_thread_safe_box.hpp' header, and class name 'RealtimeThreadSafeBox' instead.\x1b[m\x1b[K\xe2\x80\x99\n"}
+[5.079021] (mecanum_drive_controller) StderrLine: {'line': b'   40 | pp\' header, and class name \'RealtimeThreadSafeBox\' instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K  //NOLINT\n'}
+[5.079059] (mecanum_drive_controller) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.079102] (mecanum_drive_controller) StderrLine: {'line': b'\n'}
+[5.110379] (-) TimerEvent: {}
+[5.210591] (-) TimerEvent: {}
+[5.310840] (-) TimerEvent: {}
+[5.411144] (-) TimerEvent: {}
+[5.511427] (-) TimerEvent: {}
+[5.611729] (-) TimerEvent: {}
+[5.712103] (-) TimerEvent: {}
+[5.812380] (-) TimerEvent: {}
+[5.912758] (-) TimerEvent: {}
+[6.013128] (-) TimerEvent: {}
+[6.113464] (-) TimerEvent: {}
+[6.213756] (-) TimerEvent: {}
+[6.314096] (-) TimerEvent: {}
+[6.414369] (-) TimerEvent: {}
+[6.514670] (-) TimerEvent: {}
+[6.614972] (-) TimerEvent: {}
+[6.715405] (-) TimerEvent: {}
+[6.815643] (-) TimerEvent: {}
+[6.915946] (-) TimerEvent: {}
+[7.016156] (-) TimerEvent: {}
+[7.116367] (-) TimerEvent: {}
+[7.216595] (-) TimerEvent: {}
+[7.316827] (-) TimerEvent: {}
+[7.417053] (-) TimerEvent: {}
+[7.517310] (-) TimerEvent: {}
+[7.617546] (-) TimerEvent: {}
+[7.717820] (-) TimerEvent: {}
+[7.818049] (-) TimerEvent: {}
+[7.918284] (-) TimerEvent: {}
+[8.018521] (-) TimerEvent: {}
+[8.118771] (-) TimerEvent: {}
+[8.219021] (-) TimerEvent: {}
+[8.319312] (-) TimerEvent: {}
+[8.419617] (-) TimerEvent: {}
+[8.519878] (-) TimerEvent: {}
+[8.620094] (-) TimerEvent: {}
+[8.720350] (-) TimerEvent: {}
+[8.820633] (-) TimerEvent: {}
+[8.920910] (-) TimerEvent: {}
+[9.021215] (-) TimerEvent: {}
+[9.121492] (-) TimerEvent: {}
+[9.221796] (-) TimerEvent: {}
+[9.322046] (-) TimerEvent: {}
+[9.422274] (-) TimerEvent: {}
+[9.522499] (-) TimerEvent: {}
+[9.622728] (-) TimerEvent: {}
+[9.723022] (-) TimerEvent: {}
+[9.823230] (-) TimerEvent: {}
+[9.923466] (-) TimerEvent: {}
+[10.023680] (-) TimerEvent: {}
+[10.123908] (-) TimerEvent: {}
+[10.224124] (-) TimerEvent: {}
+[10.324352] (-) TimerEvent: {}
+[10.424588] (-) TimerEvent: {}
+[10.524806] (-) TimerEvent: {}
+[10.625109] (-) TimerEvent: {}
+[10.725342] (-) TimerEvent: {}
+[10.825581] (-) TimerEvent: {}
+[10.925872] (-) TimerEvent: {}
+[11.026091] (-) TimerEvent: {}
+[11.126302] (-) TimerEvent: {}
+[11.226541] (-) TimerEvent: {}
+[11.326745] (-) TimerEvent: {}
+[11.427002] (-) TimerEvent: {}
+[11.527229] (-) TimerEvent: {}
+[11.627507] (-) TimerEvent: {}
+[11.727755] (-) TimerEvent: {}
+[11.817284] (mecanum_drive_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmecanum_drive_controller.so\x1b[0m\n'}
+[11.827883] (-) TimerEvent: {}
+[11.928120] (-) TimerEvent: {}
+[12.028354] (-) TimerEvent: {}
+[12.128676] (-) TimerEvent: {}
+[12.228954] (-) TimerEvent: {}
+[12.329173] (-) TimerEvent: {}
+[12.360093] (mecanum_drive_controller) StdoutLine: {'line': b'[100%] Built target mecanum_drive_controller\n'}
+[12.368750] (mecanum_drive_controller) CommandEnded: {'returncode': 0}
+[12.369417] (mecanum_drive_controller) JobProgress: {'identifier': 'mecanum_drive_controller', 'progress': 'install'}
+[12.376748] (mecanum_drive_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kunal-jazzy/ros2_ws/build/mecanum_drive_controller'], 'cwd': '/home/kunal-jazzy/ros2_ws/build/mecanum_drive_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'kunal-jazzy', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kunal-jazzy', 'OLDPWD': '/home/kunal-jazzy/ros2_ws/src/mecanum_drive_controller', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2979', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=29b619fc9800acefcde705c069c1e956', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/kunal-jazzy/ROS2-Camera-Visualization/install:/home/kunal-jazzy/ros2_ws/install:/home/kunal-jazzy/ros2_arm/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kunal-jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kunal-jazzy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kunal-jazzy-LOQ-15IAX9:@/tmp/.ICE-unix/2979,unix/kunal-jazzy-LOQ-15IAX9:/tmp/.ICE-unix/2979', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/edd0e70b_07c7_4cb3_b6e2_a7fa63be760b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kunal-jazzy/ros2_ws/install/ros2_ws:/home/kunal-jazzy/ros2_ws/install/system_tests:/home/kunal-jazzy/ros2_ws/install/rosmaster_description:/home/kunal-jazzy/ros2_ws/install/ros_navigation:/home/kunal-jazzy/ros2_ws/install/ros_localization:/home/kunal-jazzy/ros2_ws/install/ros_gazebo:/home/kunal-jazzy/ros2_ws/install/ros_bringup:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_worlds:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control_bringup:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_wheel_description:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/home/kunal-jazzy/ros2_arm/install/ros2_arm:/home/kunal-jazzy/ros2_arm/install/arm_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kunal-jazzy/ros2_ws/build/mecanum_drive_controller', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=29b619fc9800acefcde705c069c1e956', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/kunal-jazzy/ros2_ws/install/ros2_ws:/home/kunal-jazzy/ros2_ws/install/system_tests:/home/kunal-jazzy/ros2_ws/install/rosmaster_description:/home/kunal-jazzy/ros2_ws/install/ros_navigation:/home/kunal-jazzy/ros2_ws/install/ros_localization:/home/kunal-jazzy/ros2_ws/install/ros_gazebo:/home/kunal-jazzy/ros2_ws/install/ros_bringup:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_worlds:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control_bringup:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_wheel_description:/home/kunal-jazzy/ros2_arm/install/ros2_arm:/home/kunal-jazzy/ros2_arm/install/arm_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy'}), 'shell': False}
+[12.386162] (mecanum_drive_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.396450] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller\n'}
+[12.396639] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp\n'}
+[12.396704] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/mecanum_drive_plugin.xml\n'}
+[12.396756] (mecanum_drive_controller) StdoutLine: {'line': b'-- Up-to-date: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller\n'}
+[12.396804] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller\n'}
+[12.396851] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/visibility_control.h\n'}
+[12.397006] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/odometry.hpp\n'}
+[12.397099] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/speed_limiter.hpp\n'}
+[12.397143] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/mecanum_drive_controller.hpp\n'}
+[12.397189] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so\n'}
+[12.397234] (mecanum_drive_controller) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so" to ""\n'}
+[12.397274] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.sh\n'}
+[12.397469] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.dsv\n'}
+[12.397519] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/ament_index/resource_index/package_run_dependencies/mecanum_drive_controller\n'}
+[12.397566] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/ament_index/resource_index/parent_prefix_path/mecanum_drive_controller\n'}
+[12.397611] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.sh\n'}
+[12.397652] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.dsv\n'}
+[12.397699] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.sh\n'}
+[12.397867] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.dsv\n'}
+[12.397909] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.bash\n'}
+[12.397964] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.sh\n'}
+[12.398013] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.zsh\n'}
+[12.398060] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.dsv\n'}
+[12.398101] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.dsv\n'}
+[12.398140] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/ament_index/resource_index/packages/mecanum_drive_controller\n'}
+[12.398187] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/mecanum_drive_controller\n'}
+[12.398228] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport.cmake\n'}
+[12.398268] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport-noconfig.cmake\n'}
+[12.398315] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.398356] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.398428] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig.cmake\n'}
+[12.398473] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig-version.cmake\n'}
+[12.398516] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.xml\n'}
+[12.398566] (mecanum_drive_controller) CommandEnded: {'returncode': 0}
+[12.415363] (mecanum_drive_controller) JobEnded: {'identifier': 'mecanum_drive_controller', 'rc': 0}
+[12.415928] (-) EventReactorShutdown: {}

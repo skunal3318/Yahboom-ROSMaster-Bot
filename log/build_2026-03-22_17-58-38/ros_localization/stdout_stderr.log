@@ -1,0 +1,41 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found robot_localization: 3.8.3 (/opt/ros/jazzy/share/robot_localization/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/kunal-jazzy/ros2_ws/build/ros_localization
+-- Install configuration: ""
+-- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ament_index/resource_index/package_run_dependencies/ros_localization
+-- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ament_index/resource_index/parent_prefix_path/ros_localization
+-- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/environment/ament_prefix_path.sh
+-- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/environment/ament_prefix_path.dsv
+-- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/environment/path.sh
+-- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/environment/path.dsv
+-- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/local_setup.bash
+-- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/local_setup.sh
+-- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/local_setup.zsh
+-- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/local_setup.dsv
+-- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/package.dsv
+-- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ament_index/resource_index/packages/ros_localization
+-- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/cmake/ros_localizationConfig.cmake
+-- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/cmake/ros_localizationConfig-version.cmake
+-- Installing: /home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/package.xml

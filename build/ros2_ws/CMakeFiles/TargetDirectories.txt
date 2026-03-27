@@ -1,0 +1,9 @@
+/home/kunal-jazzy/ros2_ws/build/ros2_ws/CMakeFiles/uninstall.dir
+/home/kunal-jazzy/ros2_ws/build/ros2_ws/CMakeFiles/ros2_ws_uninstall.dir
+/home/kunal-jazzy/ros2_ws/build/ros2_ws/CMakeFiles/test.dir
+/home/kunal-jazzy/ros2_ws/build/ros2_ws/CMakeFiles/edit_cache.dir
+/home/kunal-jazzy/ros2_ws/build/ros2_ws/CMakeFiles/rebuild_cache.dir
+/home/kunal-jazzy/ros2_ws/build/ros2_ws/CMakeFiles/list_install_components.dir
+/home/kunal-jazzy/ros2_ws/build/ros2_ws/CMakeFiles/install.dir
+/home/kunal-jazzy/ros2_ws/build/ros2_ws/CMakeFiles/install/local.dir
+/home/kunal-jazzy/ros2_ws/build/ros2_ws/CMakeFiles/install/strip.dir

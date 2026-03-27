@@ -1,0 +1,594 @@
+[0.254s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.254s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7bc9e8044500>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7bc9e80104a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7bc9e80104a0>>)
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.305s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kunal-jazzy/ros2_ws'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_drive_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_drive_controller) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_drive_controller) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_drive_controller) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_drive_controller) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_drive_controller) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_drive_controller) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_drive_controller) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_drive_controller) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mecanum_drive_controller' with type 'ros.ament_cmake' and name 'mecanum_drive_controller'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extension 'ros'
+[0.332s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_ws' with type 'ros.ament_cmake' and name 'ros2_ws'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bringup) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bringup) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bringup) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bringup) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bringup) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bringup) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bringup) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bringup) by extension 'ros'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_bringup' with type 'ros.ament_cmake' and name 'ros_bringup'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gazebo) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gazebo) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gazebo) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gazebo) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gazebo) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gazebo) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gazebo) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gazebo) by extension 'ros'
+[0.334s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gazebo' with type 'ros.ament_cmake' and name 'ros_gazebo'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_localization) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_localization) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_localization) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_localization) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_localization) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_localization) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_localization) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_localization) by extension 'ros'
+[0.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_localization' with type 'ros.ament_cmake' and name 'ros_localization'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_navigation) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_navigation) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_navigation) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_navigation) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_navigation) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_navigation) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_navigation) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_navigation) by extension 'ros'
+[0.336s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_navigation' with type 'ros.ament_cmake' and name 'ros_navigation'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_description) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_description) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_description) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_description) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_description) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_description) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_description) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_description) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmaster_description) by extension 'ros'
+[0.337s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosmaster_description' with type 'ros.ament_cmake' and name 'rosmaster_description'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_tests) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_tests) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_tests) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_tests) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_tests) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_tests) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_tests) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_tests) by extension 'ros'
+[0.338s] DEBUG:colcon.colcon_core.package_identification:Package 'src/system_tests' with type 'ros.ament_cmake' and name 'system_tests'
+[0.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.358s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/kunal-jazzy/ROS2-Camera-Visualization/install
+[0.358s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/kunal-jazzy/ros2_ws/install
+[0.359s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/kunal-jazzy/ros2_arm/install
+[0.360s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 500 installed packages in /opt/ros/jazzy
+[0.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.410s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'mecanum_drive_controller' is in: /home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller, /opt/ros/jazzy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding mecanum_drive_controller
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_target' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.411s] DEBUG:colcon.colcon_core.verb:Building package 'mecanum_drive_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kunal-jazzy/ros2_ws/build/mecanum_drive_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller', 'merge_install': False, 'path': '/home/kunal-jazzy/ros2_ws/src/mecanum_drive_controller', 'symlink_install': False, 'test_result_base': None}
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_bringup' build argument 'cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_bringup' build argument 'cmake_target' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.411s] DEBUG:colcon.colcon_core.verb:Building package 'ros_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kunal-jazzy/ros2_ws/build/ros_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kunal-jazzy/ros2_ws/install/ros_bringup', 'merge_install': False, 'path': '/home/kunal-jazzy/ros2_ws/src/ros_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.412s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kunal-jazzy/ros2_ws/build/ros_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kunal-jazzy/ros2_ws/install/ros_gazebo', 'merge_install': False, 'path': '/home/kunal-jazzy/ros2_ws/src/ros_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_localization' build argument 'cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_localization' build argument 'cmake_target' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.412s] DEBUG:colcon.colcon_core.verb:Building package 'ros_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kunal-jazzy/ros2_ws/build/ros_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kunal-jazzy/ros2_ws/install/ros_localization', 'merge_install': False, 'path': '/home/kunal-jazzy/ros2_ws/src/ros_localization', 'symlink_install': False, 'test_result_base': None}
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_navigation' build argument 'cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_navigation' build argument 'cmake_target' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.412s] DEBUG:colcon.colcon_core.verb:Building package 'ros_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kunal-jazzy/ros2_ws/build/ros_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kunal-jazzy/ros2_ws/install/ros_navigation', 'merge_install': False, 'path': '/home/kunal-jazzy/ros2_ws/src/ros_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_description' build argument 'cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_description' build argument 'cmake_target' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'rosmaster_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.412s] DEBUG:colcon.colcon_core.verb:Building package 'rosmaster_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kunal-jazzy/ros2_ws/build/rosmaster_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kunal-jazzy/ros2_ws/install/rosmaster_description', 'merge_install': False, 'path': '/home/kunal-jazzy/ros2_ws/src/rosmaster_description', 'symlink_install': False, 'test_result_base': None}
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'system_tests' build argument 'cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'system_tests' build argument 'cmake_target' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'system_tests' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'system_tests' build argument 'cmake_clean_cache' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'system_tests' build argument 'cmake_clean_first' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'system_tests' build argument 'cmake_force_configure' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'system_tests' build argument 'ament_cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'system_tests' build argument 'catkin_cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'system_tests' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.413s] DEBUG:colcon.colcon_core.verb:Building package 'system_tests' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kunal-jazzy/ros2_ws/build/system_tests', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kunal-jazzy/ros2_ws/install/system_tests', 'merge_install': False, 'path': '/home/kunal-jazzy/ros2_ws/src/system_tests', 'symlink_install': False, 'test_result_base': None}
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'ros2_ws' build argument 'cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'ros2_ws' build argument 'cmake_target' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'ros2_ws' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'ros2_ws' build argument 'cmake_clean_cache' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'ros2_ws' build argument 'cmake_clean_first' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'ros2_ws' build argument 'cmake_force_configure' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'ros2_ws' build argument 'ament_cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'ros2_ws' build argument 'catkin_cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'ros2_ws' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.413s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_ws' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kunal-jazzy/ros2_ws/build/ros2_ws', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kunal-jazzy/ros2_ws/install/ros2_ws', 'merge_install': False, 'path': '/home/kunal-jazzy/ros2_ws/src/ros2_ws', 'symlink_install': False, 'test_result_base': None}
+[0.413s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.414s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.414s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kunal-jazzy/ros2_ws/src/ros_bringup' with build type 'ament_cmake'
+[0.414s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kunal-jazzy/ros2_ws/src/ros_bringup'
+[0.418s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.418s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.422s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kunal-jazzy/ros2_ws/src/ros_gazebo' with build type 'ament_cmake'
+[0.422s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kunal-jazzy/ros2_ws/src/ros_gazebo'
+[0.422s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.426s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kunal-jazzy/ros2_ws/src/rosmaster_description' with build type 'ament_cmake'
+[0.426s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kunal-jazzy/ros2_ws/src/rosmaster_description'
+[0.426s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.426s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.439s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kunal-jazzy/ros2_ws/src/system_tests' with build type 'ament_cmake'
+[0.440s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kunal-jazzy/ros2_ws/src/system_tests'
+[0.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.443s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kunal-jazzy/ros2_ws/src/mecanum_drive_controller' with build type 'ament_cmake'
+[0.443s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kunal-jazzy/ros2_ws/src/mecanum_drive_controller'
+[0.444s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.444s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.447s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kunal-jazzy/ros2_ws/src/ros_localization' with build type 'ament_cmake'
+[0.447s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kunal-jazzy/ros2_ws/src/ros_localization'
+[0.448s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.448s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.451s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kunal-jazzy/ros2_ws/src/ros_navigation' with build type 'ament_cmake'
+[0.451s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kunal-jazzy/ros2_ws/src/ros_navigation'
+[0.451s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.451s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal-jazzy/ros2_ws/build/ros_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/ros_bringup -- -j12 -l12
+[0.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal-jazzy/ros2_ws/build/ros_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/ros_gazebo -- -j12 -l12
+[0.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal-jazzy/ros2_ws/build/rosmaster_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/rosmaster_description -- -j12 -l12
+[0.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal-jazzy/ros2_ws/build/system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/system_tests -- -j12 -l12
+[0.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal-jazzy/ros2_ws/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/mecanum_drive_controller -- -j12 -l12
+[0.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal-jazzy/ros2_ws/build/ros_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/ros_localization -- -j12 -l12
+[0.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal-jazzy/ros2_ws/build/ros_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/ros_navigation -- -j12 -l12
+[0.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal-jazzy/ros2_ws/build/ros_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/ros_bringup -- -j12 -l12
+[0.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal-jazzy/ros2_ws/build/ros_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/ros_bringup
+[0.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal-jazzy/ros2_ws/build/system_tests' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/system_tests -- -j12 -l12
+[0.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal-jazzy/ros2_ws/build/system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/system_tests
+[0.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal-jazzy/ros2_ws/build/ros_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/ros_localization -- -j12 -l12
+[0.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal-jazzy/ros2_ws/build/ros_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/ros_localization
+[0.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal-jazzy/ros2_ws/build/rosmaster_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/rosmaster_description -- -j12 -l12
+[0.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal-jazzy/ros2_ws/build/rosmaster_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/rosmaster_description
+[0.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal-jazzy/ros2_ws/build/ros_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/ros_navigation -- -j12 -l12
+[0.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal-jazzy/ros2_ws/build/ros_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/ros_navigation
+[0.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal-jazzy/ros2_ws/build/ros_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/ros_gazebo -- -j12 -l12
+[0.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal-jazzy/ros2_ws/build/ros_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/ros_gazebo
+[0.597s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_bringup)
+[0.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal-jazzy/ros2_ws/build/ros_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/ros_bringup
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_bringup' for CMake module files
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_bringup' for CMake config files
+[0.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_bringup', 'cmake_prefix_path')
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/hook/cmake_prefix_path.ps1'
+[0.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/hook/cmake_prefix_path.dsv'
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/hook/cmake_prefix_path.sh'
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_bringup/bin'
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_bringup/lib/pkgconfig/ros_bringup.pc'
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_bringup/lib/python3.12/site-packages'
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_bringup/bin'
+[0.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/package.ps1'
+[0.611s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/package.dsv'
+[0.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/package.sh'
+[0.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/package.bash'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/package.zsh'
+[0.614s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/colcon-core/packages/ros_bringup)
+[0.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_bringup)
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_bringup' for CMake module files
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_bringup' for CMake config files
+[0.616s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_bringup', 'cmake_prefix_path')
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/hook/cmake_prefix_path.ps1'
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/hook/cmake_prefix_path.dsv'
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/hook/cmake_prefix_path.sh'
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_bringup/bin'
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_bringup/lib/pkgconfig/ros_bringup.pc'
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_bringup/lib/python3.12/site-packages'
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_bringup/bin'
+[0.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/package.ps1'
+[0.617s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/package.dsv'
+[0.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/package.sh'
+[0.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/package.bash'
+[0.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/package.zsh'
+[0.618s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/colcon-core/packages/ros_bringup)
+[0.620s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(system_tests)
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/system_tests' for CMake module files
+[0.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal-jazzy/ros2_ws/build/system_tests' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/system_tests
+[0.622s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/system_tests' for CMake config files
+[0.622s] Level 1:colcon.colcon_core.shell:create_environment_hook('system_tests', 'cmake_prefix_path')
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/system_tests/share/system_tests/hook/cmake_prefix_path.ps1'
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal-jazzy/ros2_ws/install/system_tests/share/system_tests/hook/cmake_prefix_path.dsv'
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/system_tests/share/system_tests/hook/cmake_prefix_path.sh'
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/system_tests/bin'
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/system_tests/lib/pkgconfig/system_tests.pc'
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/system_tests/lib/python3.12/site-packages'
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/system_tests/bin'
+[0.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/system_tests/share/system_tests/package.ps1'
+[0.624s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal-jazzy/ros2_ws/install/system_tests/share/system_tests/package.dsv'
+[0.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/system_tests/share/system_tests/package.sh'
+[0.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/system_tests/share/system_tests/package.bash'
+[0.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/system_tests/share/system_tests/package.zsh'
+[0.625s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal-jazzy/ros2_ws/install/system_tests/share/colcon-core/packages/system_tests)
+[0.625s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(system_tests)
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/system_tests' for CMake module files
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/system_tests' for CMake config files
+[0.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('system_tests', 'cmake_prefix_path')
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/system_tests/share/system_tests/hook/cmake_prefix_path.ps1'
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal-jazzy/ros2_ws/install/system_tests/share/system_tests/hook/cmake_prefix_path.dsv'
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/system_tests/share/system_tests/hook/cmake_prefix_path.sh'
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/system_tests/bin'
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/system_tests/lib/pkgconfig/system_tests.pc'
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/system_tests/lib/python3.12/site-packages'
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/system_tests/bin'
+[0.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/system_tests/share/system_tests/package.ps1'
+[0.628s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal-jazzy/ros2_ws/install/system_tests/share/system_tests/package.dsv'
+[0.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/system_tests/share/system_tests/package.sh'
+[0.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/system_tests/share/system_tests/package.bash'
+[0.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/system_tests/share/system_tests/package.zsh'
+[0.629s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal-jazzy/ros2_ws/install/system_tests/share/colcon-core/packages/system_tests)
+[0.629s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_localization)
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_localization' for CMake module files
+[0.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal-jazzy/ros2_ws/build/ros_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/ros_localization
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_localization' for CMake config files
+[0.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_localization', 'cmake_prefix_path')
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/hook/cmake_prefix_path.ps1'
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/hook/cmake_prefix_path.dsv'
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/hook/cmake_prefix_path.sh'
+[0.631s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_localization/bin'
+[0.631s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_localization/lib/pkgconfig/ros_localization.pc'
+[0.631s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_localization/lib/python3.12/site-packages'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_localization/bin'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/package.ps1'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/package.dsv'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/package.sh'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/package.bash'
+[0.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/package.zsh'
+[0.633s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal-jazzy/ros2_ws/install/ros_localization/share/colcon-core/packages/ros_localization)
+[0.633s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_localization)
+[0.633s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_localization' for CMake module files
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_localization' for CMake config files
+[0.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_localization', 'cmake_prefix_path')
+[0.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/hook/cmake_prefix_path.ps1'
+[0.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/hook/cmake_prefix_path.dsv'
+[0.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/hook/cmake_prefix_path.sh'
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_localization/bin'
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_localization/lib/pkgconfig/ros_localization.pc'
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_localization/lib/python3.12/site-packages'
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_localization/bin'
+[0.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/package.ps1'
+[0.635s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/package.dsv'
+[0.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/package.sh'
+[0.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/package.bash'
+[0.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_localization/share/ros_localization/package.zsh'
+[0.636s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal-jazzy/ros2_ws/install/ros_localization/share/colcon-core/packages/ros_localization)
+[0.636s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_navigation)
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_navigation' for CMake module files
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_navigation' for CMake config files
+[0.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal-jazzy/ros2_ws/build/ros_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/ros_navigation
+[0.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_navigation', 'cmake_prefix_path')
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/hook/cmake_prefix_path.ps1'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/hook/cmake_prefix_path.dsv'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/hook/cmake_prefix_path.sh'
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_navigation/bin'
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_navigation/lib/pkgconfig/ros_navigation.pc'
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_navigation/lib/python3.12/site-packages'
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_navigation/bin'
+[0.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/package.ps1'
+[0.639s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/package.dsv'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/package.sh'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/package.bash'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/package.zsh'
+[0.640s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal-jazzy/ros2_ws/install/ros_navigation/share/colcon-core/packages/ros_navigation)
+[0.641s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_navigation)
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_navigation' for CMake module files
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_navigation' for CMake config files
+[0.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_navigation', 'cmake_prefix_path')
+[0.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/hook/cmake_prefix_path.ps1'
+[0.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/hook/cmake_prefix_path.dsv'
+[0.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/hook/cmake_prefix_path.sh'
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_navigation/bin'
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_navigation/lib/pkgconfig/ros_navigation.pc'
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_navigation/lib/python3.12/site-packages'
+[0.643s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_navigation/bin'
+[0.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/package.ps1'
+[0.643s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/package.dsv'
+[0.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/package.sh'
+[0.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/package.bash'
+[0.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_navigation/share/ros_navigation/package.zsh'
+[0.644s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal-jazzy/ros2_ws/install/ros_navigation/share/colcon-core/packages/ros_navigation)
+[0.644s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosmaster_description)
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/rosmaster_description' for CMake module files
+[0.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal-jazzy/ros2_ws/build/rosmaster_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/rosmaster_description
+[0.645s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/rosmaster_description' for CMake config files
+[0.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosmaster_description', 'cmake_prefix_path')
+[0.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/share/rosmaster_description/hook/cmake_prefix_path.ps1'
+[0.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/share/rosmaster_description/hook/cmake_prefix_path.dsv'
+[0.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/share/rosmaster_description/hook/cmake_prefix_path.sh'
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/bin'
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/lib/pkgconfig/rosmaster_description.pc'
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/lib/python3.12/site-packages'
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/bin'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/share/rosmaster_description/package.ps1'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/share/rosmaster_description/package.dsv'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/share/rosmaster_description/package.sh'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/share/rosmaster_description/package.bash'
+[0.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/share/rosmaster_description/package.zsh'
+[0.649s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal-jazzy/ros2_ws/install/rosmaster_description/share/colcon-core/packages/rosmaster_description)
+[0.649s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosmaster_description)
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/rosmaster_description' for CMake module files
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/rosmaster_description' for CMake config files
+[0.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosmaster_description', 'cmake_prefix_path')
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/share/rosmaster_description/hook/cmake_prefix_path.ps1'
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/share/rosmaster_description/hook/cmake_prefix_path.dsv'
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/share/rosmaster_description/hook/cmake_prefix_path.sh'
+[0.650s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/bin'
+[0.650s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/lib/pkgconfig/rosmaster_description.pc'
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/lib/python3.12/site-packages'
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/bin'
+[0.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/share/rosmaster_description/package.ps1'
+[0.651s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/share/rosmaster_description/package.dsv'
+[0.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/share/rosmaster_description/package.sh'
+[0.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/share/rosmaster_description/package.bash'
+[0.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/rosmaster_description/share/rosmaster_description/package.zsh'
+[0.652s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal-jazzy/ros2_ws/install/rosmaster_description/share/colcon-core/packages/rosmaster_description)
+[0.653s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gazebo)
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_gazebo' for CMake module files
+[0.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal-jazzy/ros2_ws/build/ros_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/ros_gazebo
+[0.654s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_gazebo' for CMake config files
+[0.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gazebo', 'cmake_prefix_path')
+[0.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/hook/cmake_prefix_path.ps1'
+[0.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/hook/cmake_prefix_path.dsv'
+[0.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/hook/cmake_prefix_path.sh'
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/bin'
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/lib/pkgconfig/ros_gazebo.pc'
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/lib/python3.12/site-packages'
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/bin'
+[0.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/package.ps1'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/package.dsv'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/package.sh'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/package.bash'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/package.zsh'
+[0.657s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/colcon-core/packages/ros_gazebo)
+[0.657s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gazebo)
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_gazebo' for CMake module files
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_gazebo' for CMake config files
+[0.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gazebo', 'cmake_prefix_path')
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/hook/cmake_prefix_path.ps1'
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/hook/cmake_prefix_path.dsv'
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/hook/cmake_prefix_path.sh'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/bin'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/lib/pkgconfig/ros_gazebo.pc'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/lib/python3.12/site-packages'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/bin'
+[0.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/package.ps1'
+[0.659s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/package.dsv'
+[0.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/package.sh'
+[0.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/package.bash'
+[0.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/ros_gazebo/package.zsh'
+[0.660s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal-jazzy/ros2_ws/install/ros_gazebo/share/colcon-core/packages/ros_gazebo)
+[0.661s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kunal-jazzy/ros2_ws/src/ros2_ws' with build type 'ament_cmake'
+[0.661s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kunal-jazzy/ros2_ws/src/ros2_ws'
+[0.661s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.661s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.670s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal-jazzy/ros2_ws/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/mecanum_drive_controller -- -j12 -l12
+[0.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal-jazzy/ros2_ws/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/mecanum_drive_controller
+[0.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal-jazzy/ros2_ws/build/ros2_ws': CMAKE_PREFIX_PATH=/home/kunal-jazzy/ros2_ws/install/system_tests:/home/kunal-jazzy/ros2_ws/install/rosmaster_description:/home/kunal-jazzy/ros2_ws/install/ros_gazebo:/home/kunal-jazzy/ros2_ws/install/ros_bringup:/home/kunal-jazzy/ros2_ws/install/ros2_ws:/home/kunal-jazzy/ros2_ws/install/ros_navigation:/home/kunal-jazzy/ros2_ws/install/ros_localization:/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_worlds:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control_bringup:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_wheel_description:/home/kunal-jazzy/ros2_arm/install/ros2_arm:/home/kunal-jazzy/ros2_arm/install/arm_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/ros2_ws -- -j12 -l12
+[0.685s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanum_drive_controller)
+[0.685s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller' for CMake module files
+[0.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal-jazzy/ros2_ws/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/mecanum_drive_controller
+[0.686s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller' for CMake config files
+[0.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanum_drive_controller', 'cmake_prefix_path')
+[0.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/hook/cmake_prefix_path.ps1'
+[0.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/hook/cmake_prefix_path.dsv'
+[0.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/hook/cmake_prefix_path.sh'
+[0.687s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/lib'
+[0.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanum_drive_controller', 'ld_library_path_lib')
+[0.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/hook/ld_library_path_lib.ps1'
+[0.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/hook/ld_library_path_lib.dsv'
+[0.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/hook/ld_library_path_lib.sh'
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/bin'
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/lib/pkgconfig/mecanum_drive_controller.pc'
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/lib/python3.12/site-packages'
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/bin'
+[0.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.ps1'
+[0.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.dsv'
+[0.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.sh'
+[0.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.bash'
+[0.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.zsh'
+[0.691s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/colcon-core/packages/mecanum_drive_controller)
+[0.691s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanum_drive_controller)
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller' for CMake module files
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller' for CMake config files
+[0.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanum_drive_controller', 'cmake_prefix_path')
+[0.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/hook/cmake_prefix_path.ps1'
+[0.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/hook/cmake_prefix_path.dsv'
+[0.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/hook/cmake_prefix_path.sh'
+[0.692s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/lib'
+[0.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanum_drive_controller', 'ld_library_path_lib')
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/hook/ld_library_path_lib.ps1'
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/hook/ld_library_path_lib.dsv'
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/hook/ld_library_path_lib.sh'
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/bin'
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/lib/pkgconfig/mecanum_drive_controller.pc'
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/lib/python3.12/site-packages'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/bin'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.ps1'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.dsv'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.sh'
+[0.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.bash'
+[0.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.zsh'
+[0.695s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller/share/colcon-core/packages/mecanum_drive_controller)
+[0.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal-jazzy/ros2_ws/build/ros2_ws' returned '0': CMAKE_PREFIX_PATH=/home/kunal-jazzy/ros2_ws/install/system_tests:/home/kunal-jazzy/ros2_ws/install/rosmaster_description:/home/kunal-jazzy/ros2_ws/install/ros_gazebo:/home/kunal-jazzy/ros2_ws/install/ros_bringup:/home/kunal-jazzy/ros2_ws/install/ros2_ws:/home/kunal-jazzy/ros2_ws/install/ros_navigation:/home/kunal-jazzy/ros2_ws/install/ros_localization:/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_worlds:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control_bringup:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_wheel_description:/home/kunal-jazzy/ros2_arm/install/ros2_arm:/home/kunal-jazzy/ros2_arm/install/arm_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/ros2_ws -- -j12 -l12
+[0.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal-jazzy/ros2_ws/build/ros2_ws': CMAKE_PREFIX_PATH=/home/kunal-jazzy/ros2_ws/install/system_tests:/home/kunal-jazzy/ros2_ws/install/rosmaster_description:/home/kunal-jazzy/ros2_ws/install/ros_gazebo:/home/kunal-jazzy/ros2_ws/install/ros_bringup:/home/kunal-jazzy/ros2_ws/install/ros2_ws:/home/kunal-jazzy/ros2_ws/install/ros_navigation:/home/kunal-jazzy/ros2_ws/install/ros_localization:/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_worlds:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control_bringup:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_wheel_description:/home/kunal-jazzy/ros2_arm/install/ros2_arm:/home/kunal-jazzy/ros2_arm/install/arm_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/ros2_ws
+[0.720s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_ws)
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros2_ws' for CMake module files
+[0.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal-jazzy/ros2_ws/build/ros2_ws' returned '0': CMAKE_PREFIX_PATH=/home/kunal-jazzy/ros2_ws/install/system_tests:/home/kunal-jazzy/ros2_ws/install/rosmaster_description:/home/kunal-jazzy/ros2_ws/install/ros_gazebo:/home/kunal-jazzy/ros2_ws/install/ros_bringup:/home/kunal-jazzy/ros2_ws/install/ros2_ws:/home/kunal-jazzy/ros2_ws/install/ros_navigation:/home/kunal-jazzy/ros2_ws/install/ros_localization:/home/kunal-jazzy/ros2_ws/install/mecanum_drive_controller:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_worlds:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control_bringup:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_wheel_description:/home/kunal-jazzy/ros2_arm/install/ros2_arm:/home/kunal-jazzy/ros2_arm/install/arm_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ros2_ws/build/ros2_ws
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros2_ws' for CMake config files
+[0.721s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_ws', 'cmake_prefix_path')
+[0.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/ros2_ws/share/ros2_ws/hook/cmake_prefix_path.ps1'
+[0.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal-jazzy/ros2_ws/install/ros2_ws/share/ros2_ws/hook/cmake_prefix_path.dsv'
+[0.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/ros2_ws/share/ros2_ws/hook/cmake_prefix_path.sh'
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros2_ws/bin'
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros2_ws/lib/pkgconfig/ros2_ws.pc'
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros2_ws/lib/python3.12/site-packages'
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros2_ws/bin'
+[0.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros2_ws/share/ros2_ws/package.ps1'
+[0.723s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal-jazzy/ros2_ws/install/ros2_ws/share/ros2_ws/package.dsv'
+[0.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros2_ws/share/ros2_ws/package.sh'
+[0.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros2_ws/share/ros2_ws/package.bash'
+[0.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros2_ws/share/ros2_ws/package.zsh'
+[0.724s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal-jazzy/ros2_ws/install/ros2_ws/share/colcon-core/packages/ros2_ws)
+[0.725s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_ws)
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros2_ws' for CMake module files
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros2_ws' for CMake config files
+[0.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_ws', 'cmake_prefix_path')
+[0.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/ros2_ws/share/ros2_ws/hook/cmake_prefix_path.ps1'
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal-jazzy/ros2_ws/install/ros2_ws/share/ros2_ws/hook/cmake_prefix_path.dsv'
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal-jazzy/ros2_ws/install/ros2_ws/share/ros2_ws/hook/cmake_prefix_path.sh'
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros2_ws/bin'
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros2_ws/lib/pkgconfig/ros2_ws.pc'
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros2_ws/lib/python3.12/site-packages'
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/kunal-jazzy/ros2_ws/install/ros2_ws/bin'
+[0.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros2_ws/share/ros2_ws/package.ps1'
+[0.727s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal-jazzy/ros2_ws/install/ros2_ws/share/ros2_ws/package.dsv'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros2_ws/share/ros2_ws/package.sh'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros2_ws/share/ros2_ws/package.bash'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal-jazzy/ros2_ws/install/ros2_ws/share/ros2_ws/package.zsh'
+[0.728s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal-jazzy/ros2_ws/install/ros2_ws/share/colcon-core/packages/ros2_ws)
+[0.728s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.729s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.729s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.729s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.735s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.735s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.735s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.753s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.753s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kunal-jazzy/ros2_ws/install/local_setup.ps1'
+[0.754s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kunal-jazzy/ros2_ws/install/_local_setup_util_ps1.py'
+[0.755s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kunal-jazzy/ros2_ws/install/setup.ps1'
+[0.756s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kunal-jazzy/ros2_ws/install/local_setup.sh'
+[0.757s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kunal-jazzy/ros2_ws/install/_local_setup_util_sh.py'
+[0.757s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kunal-jazzy/ros2_ws/install/setup.sh'
+[0.759s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kunal-jazzy/ros2_ws/install/local_setup.bash'
+[0.760s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kunal-jazzy/ros2_ws/install/setup.bash'
+[0.761s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kunal-jazzy/ros2_ws/install/local_setup.zsh'
+[0.762s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kunal-jazzy/ros2_ws/install/setup.zsh'

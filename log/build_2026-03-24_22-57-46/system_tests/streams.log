@@ -1,0 +1,8 @@
+[0.071s] Invoking command in '/home/kunal-jazzy/ros2_ws/build/system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/system_tests -- -j12 -l12
+[0.111s] [31mCMake Error at CMakeLists.txt:13:
+[0.111s]   Parse error.  Expected a command name, got left paren with text "(".
+[0.111s] 
+[0.111s] [0m
+[0.112s] -- Configuring incomplete, errors occurred!
+[0.115s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.118s] Invoked command in '/home/kunal-jazzy/ros2_ws/build/system_tests' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/ROS2-Camera-Visualization/install/four_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ros2_ws/build/system_tests -- -j12 -l12

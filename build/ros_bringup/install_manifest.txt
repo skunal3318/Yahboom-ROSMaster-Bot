@@ -1,0 +1,17 @@
+/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/launch/load_ros2_controllers.launch.py
+/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/scripts/rosmaster_x3_gazebo.sh
+/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ament_index/resource_index/package_run_dependencies/ros_bringup
+/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ament_index/resource_index/parent_prefix_path/ros_bringup
+/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/environment/ament_prefix_path.sh
+/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/environment/ament_prefix_path.dsv
+/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/environment/path.sh
+/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/environment/path.dsv
+/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/local_setup.bash
+/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/local_setup.sh
+/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/local_setup.zsh
+/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/local_setup.dsv
+/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/package.dsv
+/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ament_index/resource_index/packages/ros_bringup
+/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/cmake/ros_bringupConfig.cmake
+/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/cmake/ros_bringupConfig-version.cmake
+/home/kunal-jazzy/ros2_ws/install/ros_bringup/share/ros_bringup/package.xml

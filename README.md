@@ -7,7 +7,9 @@
 <p align="center">
   <img src="Visuals/rosmaster_demo.gif" width="800">
 </p>
+
 ---
+
 ---
 ## Images
 <p align="center">
